@@ -1,0 +1,38 @@
+No one here, just for testing, bla blaaaaa
+Software Engineer
+New York, NY | 555-0100 | johndoe@email.com | https://linkedin.com/in/johndoe | https://github.com/johndoe | https://johndoe.com
+
+SUMMARY
+Passionate Software Engineer with 5+ years of experience in developing scalable web applications and working with modern AI APIs.
+
+SKILLS
+I will not tell you, that is a secret.
+
+EXPERIENCE
+TechCorp Inc.
+Senior Backend Developer
+Jan 2021 - Present
+- Designed and implemented RESTful APIs using Python and FastAPI
+- Integrated generative AI features reducing manual data entry by 40%
+
+WebSolutions LLC
+Web Developer
+Jun 2018 - Dec 2020
+- Built responsive front-end applications using React
+- Optimized database queries, improving load times by 20%
+- Collaborated with UX designers to improve user experience
+
+PROJECTS
+AI Portfolio Generator
+https://github.com/johndoe/ai-portfolio
+A Python script that reads a text resume, uses Gemini API to extract structured JSON, and generates a static HTML portfolio website.
+
+EDUCATION
+State University
+Bachelor of Science in Computer Science
+2014 - 2018
+Graduated with Honors.
+
+ACHIEVEMENTS
+AWS Certified Developer - Associate
+Hackathon Winner - AI for Good 2022

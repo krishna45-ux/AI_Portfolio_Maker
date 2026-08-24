@@ -1,0 +1,148 @@
+:root {
+  --bg-color: #f8f9fa;
+  --container-bg: #ffffff;
+  --text-primary: #333333;
+  --text-secondary: #666666;
+  --accent-color: #0066cc;
+  --border-color: #e0e0e0;
+}
+
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-primary);
+  line-height: 1.6;
+  margin: 0;
+  padding: 2rem;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background: var(--container-bg);
+  padding: 3rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+header {
+  margin-bottom: 3rem;
+  border-bottom: 2px solid var(--border-color);
+  padding-bottom: 1rem;
+}
+
+h1, h2, h3 {
+  color: var(--text-primary);
+  margin-top: 0;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  border-bottom: 2px solid var(--accent-color);
+  padding-bottom: 0.5rem;
+  margin-top: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.headline {
+  font-size: 1.25rem;
+  color: var(--text-secondary);
+  margin-bottom: 1rem;
+}
+
+.contact-info {
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
+}
+
+.contact-info a {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+/* Sections */
+section {
+  margin-bottom: 2rem;
+}
+
+/* Lists */
+.skills-list, .achievements-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  list-style: none;
+  padding: 0;
+}
+
+.skills-list li, .achievements-list li {
+  background: #f0f0f0;
+  padding: 0.4rem 0.8rem;
+  border-radius: 4px;
+  font-size: 0.95rem;
+  border: 1px solid var(--border-color);
+}
+
+/* Complex Items */
+.experience-item, .project-item, .education-item {
+  margin-bottom: 2rem;
+}
+
+.item-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 0.25rem;
+}
+
+.item-title {
+  font-weight: bold;
+  font-size: 1.15rem;
+  color: var(--text-primary);
+}
+
+a.item-title {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+a.item-title:hover {
+  text-decoration: underline;
+}
+
+.item-date {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+}
+
+.item-subtitle {
+  font-style: italic;
+  color: var(--text-secondary);
+  margin-bottom: 0.5rem;
+}
+
+.task-list {
+  margin: 0;
+  padding-left: 1.5rem;
+}
+
+.task-list li {
+  margin-bottom: 0.4rem;
+}
+
+footer {
+  text-align: center;
+  margin-top: 4rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border-color);
+  color: var(--text-secondary);
+  font-size: 0.85rem;
+}
